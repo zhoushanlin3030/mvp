@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"/>
+
+        <meta-data android:name="MTA_CHANNEL"
+            android:value="${MTA_CHANNEL_VALUE}" />
+
     </application>
 
 </manifest>
